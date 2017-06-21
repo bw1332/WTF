@@ -1,0 +1,102 @@
+# apifier account
+id: MTvuABJdiQtWayfKy
+token: 3RQaxLLEo2wsPdc7AwW8KpK7p
+
+# crawlers info
+# - name: crawlers name
+# - token: execution token
+crawlers:
+  - name: jintiALL
+    token: QgNpYxptDFSCQjSyveam5APQc
+
+# 需要提取内容
+columns:
+ - subject
+ - category
+ - sub_category
+ - company_name
+ - address
+ - state
+ - city
+ - contact_phone
+ - contact_name
+ - contact_email
+ - contact_wechat
+ - contact_qq
+ - description
+ - date
+
+# 轮询间隔（秒），查看crawler是否运行完毕
+period: 10
+
+# translate map
+map:
+    阿利桑那: Arizona
+    凤凰城: Phoenix
+    加州: California
+    旧金山: San Francisco
+    洛杉矶: Los Angeles
+    北加州: Northern California
+    南加州: Southern California
+    康州: Connecticut
+    华盛顿市: District of Columbia Washington D.C.
+    佛罗里达: Florida
+    侨治亚: Georgia
+    亚特兰大地区: Atlanta
+    夏威夷: Hawaii
+    伊利诺斯: Illinois
+    伊利诺: Illinois
+    芝加哥: Chicago
+    麻省: Massachusetts
+    波士顿: Boston
+    马里兰州: Maryland
+    内华达: Nevada
+    拉斯维加斯: Las Vegas
+    新泽西州: New Jersey
+    纽约州: New York State
+    纽约市: New York City
+    长岛: Long Island
+    纽约上州: Upstate New York
+    宾州: Pennsylvania
+    费城: Philadelphia
+    德州: Texas
+    休斯顿: Houston
+    弗吉尼亚: Virginia
+    华盛顿州: Washington
+    西雅图: Seattle
+    阿拉巴马: Alabama
+    蒙大拿: Montana
+    罗得岛: Rhode Island
+    阿拉斯加: Alaska
+    印地安那: Indiana
+    内不拉斯加: Nebraska
+    内布拉斯加州: Nebraska
+    南卡罗来纳: South Carolina
+    艾奥瓦: Iowa
+    南达科他: South Dakota
+    阿肯色: Arkansas
+    堪萨斯: Kansas
+    新罕布什尔: New Hampshire
+    田纳西: Tennessee
+    肯塔基: Kentucky
+    科罗拉多: Colorado
+    路易斯安那: Louisiana
+    新墨西哥: New Mexico
+    犹他州: Utah
+    缅因州: Maine
+    佛蒙特: Vermont
+    德拉瓦: Delaware
+    北卡罗来纳州: North Carolina
+    北达科他: North Dakota
+    密歇根: Michigan
+    俄亥俄州: Ohio
+    西弗吉尼亚: West Virginia
+    乔治亚: Georgia
+    明尼苏达: Minnesota
+    俄克拉何马: Oklahoma
+    威斯康星: Wisconsin
+    密西西比: Mississippi
+    俄勒冈: Oregon
+    怀俄明州: Wyoming
+    爱达荷: Idaho
+    密苏里: Missouri
